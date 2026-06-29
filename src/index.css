@@ -1,0 +1,27 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:         #EEF3F6;
+  --surface:    #FFFFFF;
+  --border:     #D4DDE6;
+  --track:      #D4DDE6;
+  --fill:       #3A6EA5;
+  --fill-end:   #2AB08E;
+  --text-primary:   #1A2D40;
+  --text-secondary: #5A7390;
+  --text-muted:     #8FA8BC;
+  --accent:     #3A6EA5;
+  --radius:     10px;
+  --font: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text-primary);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root { flex: 1; display: flex; flex-direction: column; }
